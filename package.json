@@ -1,0 +1,44 @@
+{
+  "name": "sicp-js-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josharnow/SICP-JS-Exercises.git"
+  },
+  "author": "Josh Arnow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josharnow/SICP-JS-Exercises/issues"
+  },
+  "compilerOptions": {
+    "module": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ],
+  "homepage": "https://github.com/josharnow/SICP-JS-Exercises#readme",
+  "dependencies": {
+    "@joeychenofficial/alt-ergo-modified": "^2.4.0",
+    "@types/estree": "^1.0.0",
+    "acorn": "^8.8.0",
+    "acorn-loose": "^8.3.0",
+    "acorn-walk": "^8.2.0",
+    "astring": "^1.8.3",
+    "gl": "^5.0.3",
+    "lodash": "^4.17.21",
+    "node-gyp": "^9.1.0",
+    "python": "^0.0.4",
+    "sicp": "^1.0.30",
+    "source-map": "^0.7.4",
+    "xmlhttprequest-ts": "^1.0.1"
+  }
+}
